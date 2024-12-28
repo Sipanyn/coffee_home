@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta dir="rtl" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خانه قهوه</title>
+    <!--swiper js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--animate css-->
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="icon" href="icons/favicon.png">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="ham_menu">
+            <img class="ham_menu_icon" src="icons/hamburger.svg" alt="">
+            <ul class="res_menu">
+                <li><a href="#"> ورود/ثبت نام</a></li>
+                <li><a href="#">جست و جو </a></li>
+                <li id="res_product"><a href="#">محصولات</a>
+                    <img class="res_drop_icon" src="icons/down.svg" alt="">
+                    <ul class="res_dropdown_menu">
+                        <li>
+                            <p>انواع قهوه</p>
+                        </li>
+                        <li>
+                            <p>انواع پودریجات</p>
+                        </li>
+                        <li>
+                            <p>انواع دریپ بک</p>
+                        </li>
+                        <li>
+                            <p>انواع سیروپ</p>
+                        </li>
+                        <li>
+                            <p>انواع اکسسوری</p>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">جست و جو </a></li>
+            </ul>
+        </div><!--lower 1000px-->
+        <div class="header_title"><img src="icons/coffee-home.svg" alt=""></div>
+        <div class="header_links">
+            <ul>
+                <li><a href="#">محصولات</a>
+                    <img class="drop_icon" src="icons/down.svg" alt="">
+                </li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </div>
+        <div class="header_icons">
+            <div class="search_icon">
+                <img src="icons/search.svg" alt="">
+            </div>
+            <div class="login">
+                <img src="icons/person.svg" alt="">
+                <p>ورود / ثبت نام</p>
+            </div>
+            <div class="basket">
+                <img src="icons/bag.svg" alt="">
+                <p style="word-spacing: 5px;">0 تومان</p>
+            </div>
+        </div>
+        <ul class="header_dropdown_menu">
+            <li>
+                <p>انواع قهوه</p>
+            </li>
+            <li>
+                <p>انواع پودریجات</p>
+            </li>
+            <li>
+                <p>انواع دریپ بک</p>
+            </li>
+            <li>
+                <p>انواع سیروپ</p>
+            </li>
+            <li>
+                <p>انواع اکسسوری</p>
+            </li>
+        </ul>
+        <div class="res_basket">
+            <img src="icons/res_basket.svg" alt="">
+            <p>0</p>
+        </div>
+    </div>
+    <div class="int">
+        <div class="int_title">
+            <div class="int_title-content">
+                <p class="animate__animated animate__bounceInRight">قهوت</p>
+                <p class="animate__animated animate__bounceInLeft">یادت نره!</p>
+            </div>
+            <div class="int_title-des">
+                <p>بهترین و با کیفیت ترین قهوه ها و اکسسوری ها در خانه قهوه چالوس</p>
+            </div>
+            <button class="int_title-btn">نمایش محصولات</button>
+        </div>
+        <div class="int_img">
+            <img class="animate__animated animate__headShake" src="icons/hero-coffee.svg" alt="">
+            <img src="icons/coffee.svg" alt="">
+        </div>
+        <div class="int_box">
+            <div class="int_box-elems">
+                <div class="int_box-elem box_type">
+                    <p class="int_box-elem_count" data-counts="100">0 +</p>
+                    <p>نوع قهوه</p>
+                </div>
+                <div class="int_box-elem box_customer">
+                    <p class="int_box-elem_count" data-counts="150">0 +</p>
+                    <p>مشتری راضی</p>
+                </div>
+                <div class="int_box-elem box_branch">
+                    <p class="int_box-elem_count" data-counts="10">0 +</p>
+                    <p>شعبه</p>
+                </div>
+                <div class="int_box-elem box_accessory">
+                    <p class="int_box-elem_count" data-counts="100">0 +</p>
+                    <p>اکسسوری</p>
+                </div>
+            </div>
+            <img src="backgrounds/int_box_bg.svg" alt="">
+        </div>
+
+        <img class="seed" src="icons/seed.svg" alt="">
+    </div>
+    <div class="classification">
+        <p class="classification_title">دسته بندی محصولات</p>
+        <p class="classification_des">بهترین و باکیفیت ترین برند ها ، چون شما لایق بهترین ها هستید</p>
+        <div class="classification_product_box">
+            <div class="classification_product">
+                <img src="icons/seed-2.svg" alt="">
+                <p>دانه قهوه</p>
+            </div>
+            <div class="classification_product">
+                <img src="icons/powder.svg" alt="">
+                <p>پودریجات</p>
+            </div>
+            <div class="classification_product">
+                <img src="icons/dreep.svg" alt="">
+                <p>دریپ بک</p>
+            </div>
+            <div class="classification_product">
+                <img src="icons/syrup.svg" alt="">
+                <p>سیروپ</p>
+            </div>
+            <div class="classification_product">
+                <img src="icons/accssesory.svg" alt="">
+                <p>اکسسوری</p>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <img class="products_icon" src="icons/seed.svg" alt="">
+        <p class="products_title">جدیدترین محصولات</p>
+        <ul class="products_menu">
+            <li>
+                <p>انواع قهوه</p>
+            </li>
+            <li>
+                <p>انواع پودریجات</p>
+            </li>
+            <li>
+                <p>دریپ بک</p>
+            </li>
+            <li>
+                <p>سیروپ ها</p>
+            </li>
+            <li>
+                <p>انواع اکسسوری</p>
+            </li>
+        </ul>
+        <div dir="rtl" class="swiper">
+            <!-- Additional required wrapper -->
+            <div dir="rtl" class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="icons/product_1.svg" alt="">
+                    <div class="product_des">
+                        <p class="product_des_title">دانه قهوه اسپرسو جیورنو بن مانو</p>
+                        <div class="product_des_price">
+                            <p class="product_des_price_old">168,000
+                                تومان</p>
+                            <p class="product_des_price_new">148,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_2.svg" alt="">
+                    <div class="product_des">
+                        <p class="product_des_title">دانه قهوه اسپرسو ویتالی (بن مانو )</p>
+                        <div class="product_des_price">
+                            <p class="product_des_price_old">138,000
+                                تومان</p>
+                            <p class="product_des_price_new">128,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_3.svg" alt="">
+                    <div class="product_des">
+                        <p class="product_des_title">دانه قهوه اسپرسو‌ لِیدی روپل</p>
+                        <div class="product_des_price">
+                            <p class="product_des_price_old">365,000
+                                تومان</p>
+                            <p class="product_des_price_new">350,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_4.svg" alt="">
+                    <div class="product_des">
+                        <p class="product_des_title">دانه قهوه اسپرسو‌ دِیلی روپل</p>
+                        <div class="product_des_price">
+                            <p class="product_des_price_old">350,000
+                                تومان</p>
+                            <p class="product_des_price_new">320,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_2.svg" alt="">
+                    <div class="product_des">
+                        <p class="product_des_title">دانه قهوه اسپرسو ویتالی (بن مانو )</p>
+                        <div class="product_des_price">
+                            <p class="product_des_price_old">138,000
+                                تومان</p>
+                            <p class="product_des_price_new">128,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands">
+        <img src="icons/seed.svg" alt="">
+        <p class="brands_title">قهوه ها بر اساس برند</p>
+        <p class="brands_des">بر اساس برند مورد علاقتان انتخاب کنید</p>
+        <div class="brands_box">
+            <img src="icons/brand-1.svg" alt="">
+            <img src="icons/brand-2.svg" alt="">
+            <img src="icons/brand-3.svg" alt="">
+            <img src="icons/brand-4.svg" alt="">
+            <img src="icons/brand-5.svg" alt="">
+            <img src="icons/brand-6.svg" alt="">
+            <img src="icons/brand-7.svg" alt="">
+            <img src="icons/brand-8.svg" alt="">
+        </div>
+    </div>
+    <div class="offs">
+        <img class="offs_icon" src="icons/seed.svg" alt="">
+        <p class="offs_title">تخفیف دار ها</p>
+        <ul class="offs_menu">
+            <li>
+                <p>انواع قهوه</p>
+            </li>
+            <li>
+                <p>انواع پودریجات</p>
+            </li>
+            <li>
+                <p>دریپ بک</p>
+            </li>
+            <li>
+                <p>سیروپ ها</p>
+            </li>
+            <li>
+                <p>انواع اکسسوری</p>
+            </li>
+        </ul>
+        <div dir="rtl" class="swiper">
+            <!-- Additional required wrapper -->
+            <div dir="rtl" class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="icons/product_1.svg" alt="">
+                    <div class="offs_des">
+                        <p class="offs_des_title">دانه قهوه اسپرسو جیورنو بن مانو</p>
+                        <div class="offs_des_price">
+                            <p class="offs_des_price_old">168,000
+                                تومان</p>
+                            <p class="offs_des_price_new">148,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_2.svg" alt="">
+                    <div class="offs_des">
+                        <p class="offs_des_title">دانه قهوه اسپرسو ویتالی (بن مانو )</p>
+                        <div class="offs_des_price">
+                            <p class="offs_des_price_old">138,000
+                                تومان</p>
+                            <p class="offs_des_price_new">128,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_3.svg" alt="">
+                    <div class="offs_des">
+                        <p class="offs_des_title">دانه قهوه اسپرسو‌ لِیدی روپل</p>
+                        <div class="offs_des_price">
+                            <p class="offs_des_price_old">365,000
+                                تومان</p>
+                            <p class="offs_des_price_new">350,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_4.svg" alt="">
+                    <div class="offs_des">
+                        <p class="offs_des_title">دانه قهوه اسپرسو‌ دِیلی روپل</p>
+                        <div class="offs_des_price">
+                            <p class="offs_des_price_old">350,000
+                                تومان</p>
+                            <p class="offs_des_price_new">320,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="icons/product_2.svg" alt="">
+                    <div class="offs_des">
+                        <p class="offs_des_title">دانه قهوه اسپرسو ویتالی (بن مانو )</p>
+                        <div class="offs_des_price">
+                            <p class="offs_des_price_old">138,000
+                                تومان</p>
+                            <p class="offs_des_price_new">128,000
+                                تومان</p>
+                        </div>
+                        <button class="add_basket">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about_us">
+        <div class="about_us_right">
+            <div class="about_us_right_title">
+                <p>خانه قهوه چالوس</p>
+            </div>
+            <p class="about_us_right_content">
+                با بیش از ده سال تجربه در اداره کافه‌ها و رستوران‌ها، و پنج سال سابقه در عرصه‌ی آموزش و
+                تولید و فروش قهوه، ما در زمینه‌ی خدمات قهوه به شما اطمینان می‌دهیم. تخصص ما در ترکیب
+                بی‌نظیر علم قهوه با تجربه رستورانی، تجربه‌ی بی‌نظیری را برای شما ایجاد خواهیم کرد.
+            </p>
+            <a href="#">درباره ما</a>
+        </div>
+        <div class="about_us_left">
+            <div class="about_us_video">
+                <video disablePictureInPicture autoplay="true" muted="true" loop="true"
+                    src="vd/coffee video.mp4"></video>
+                <img src="icons/video_svg.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="call_us">
+        <div class="call_us_right">
+            <div class="call_us_right_title">
+                <p>اینستاگرام</p>
+                <p>ما</p>
+            </div>
+            <div class="call_us_right_instaId">
+                <p>coffeehouse__north@</p>
+            </div>
+        </div>
+        <div class="call_us_left">
+            <img src="icons/instagram.svg" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_info_boxes">
+            <div class="info_box_call">
+                <img src="icons/call_icon.svg" alt="">
+                <div class="info_content">
+                    <p>تلفن تماس</p>
+                    <p>09031272123</p>
+                </div>
+            </div>
+            <div class="info_box_add">
+                <img src="icons/loc_icon.svg" alt="">
+                <div class="info_content">
+                    <p> آدرس</p>
+                    <p>جاده چالوس ، رشت ، رادیو دریا 2</p>
+                </div>
+            </div>
+            <div class="info_box_hour">
+                <img src="icons/loc_icon.svg" alt="">
+                <div class="info_content">
+                    <p> ساعات کاری:</p>
+                    <p>8 صبح الی 11 شب</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_lastPart">
+            <img src="icons/coffee_home_white.svg" alt="">
+            <p>تمام حقوق این سایت متعلق به خانه قهوه چالوس میباشد</p>
+            <div class="footer_lastPart_icons">
+                <img src="icons/insta_footer.svg" alt="">
+                <img src="icons/whatsapp_footer.svg" alt="">
+                <img src="icons/tele_footer.svg" alt="">
+            </div>
+
+        </div>
+        <img class="toUp" src="icons/toUp.svg" alt="">
+    </div>
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--my script-->
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
